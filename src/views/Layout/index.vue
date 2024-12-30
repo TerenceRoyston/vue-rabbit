@@ -3,6 +3,8 @@ import LayoutNav from './components/LayoutNav.vue'
 import LayoutHeader from './components/LayoutHeader.vue'
 import LayoutFooter from './components/LayoutFooter.vue'
 import LayoutFixed from "@/views/Layout/components/LayoutFixed.vue";
+import Home from "@/views/Home/index.vue";
+
 import {useCategoryStore} from '@/stores/category.js'
 import {onMounted} from "vue";
 
@@ -24,6 +26,7 @@ onMounted(
   <LayoutNav />
   <LayoutFixed />
   <LayoutHeader />
+  <Home />
   <RouterView />
   <LayoutFooter />
 </template>
