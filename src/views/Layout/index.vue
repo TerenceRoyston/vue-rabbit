@@ -26,7 +26,7 @@ onMounted(
   <LayoutNav />
   <LayoutFixed />
   <LayoutHeader />
-  <Home />
+<!--  <Home />-->
   <RouterView />
   <LayoutFooter />
 </template>
